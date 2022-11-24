@@ -1,7 +1,7 @@
 # Day 005 For loop
 
-# Exercise 1 - Average Height
-## Instructions
+## Exercise 1 - Average Height
+### Instructions
 
 You are going to write a program that calculates the average student height from a List of heights.
 
@@ -21,7 +21,7 @@ Average height rounded to the nearest whole number =  **164**
 
 **Important**  You should not use the  `sum()`  or  `len()`  functions in your answer. You should try to replicate their functionality using what you have learnt about for loops.
 
-## Example Input
+### Example Input
 
 ```plaintext
 156 178 165 171 187
@@ -29,15 +29,15 @@ Average height rounded to the nearest whole number =  **164**
 
 In this case, student_heights would be a list that looks like: [156, 178, 165, 171, 187]
 
-## Example Output
+### Example Output
 
 ```plaintext
 171
 ```
 
 
-# Exercise 2 - Highest Score
-## Instructions
+## Exercise 2 - Highest Score
+### Instructions
 
 You are going to write a program that calculates the highest score from a List of scores.
 
@@ -47,7 +47,7 @@ e.g.  `student_scores = [78, 65, 89, 86, 55, 91, 64, 89]`
 
 > `The highest score in the class is: x`
 
-## Example Input
+### Example Input
 
 ```plaintext
 78 65 89 86 55 91 64 89
@@ -55,14 +55,14 @@ e.g.  `student_scores = [78, 65, 89, 86, 55, 91, 64, 89]`
 
 In this case, student_scores would be a list that looks like:  `[78, 65, 89, 86, 55, 91, 64, 89]`
 
-## Example Output
+### Example Output
 
 ```plaintext
 The highest score in the class is: 91
 ```
 
-# Exercis 3 - Adding Even numbers
-## Instructions
+## Exercis 3 - Adding Even numbers
+### Instructions
 
 You are going to write a program that calculates the sum of all the even numbers from 1 to 100. Thus, the first even number would be 2 and the last one is 100:
 
@@ -70,8 +70,8 @@ i.e. 2 + 4 + 6 + 8 +10 ... + 98 + 100
 
 Important, there should only be 1 print statement in your console output. It should just print the final total and not every step of the calculation.
 
-# Exercise 4 - FizzBuzz
-## Instructions
+## Exercise 4 - FizzBuzz
+### Instructions
 
 You are going to write a program that automatically prints the solution to the FizzBuzz game.
 
@@ -103,11 +103,9 @@ Fizz
 FizzBuzz
 ```
 
-# Project : Create password generator
+## Project : Password Generator
 
-## Password Generator
-
-# Instructions
+## Instructions
 
 The program will ask:
 ```
@@ -121,7 +119,7 @@ How many numbers would you like?
 ```
 The objective is to take the inputs from the user to these questions and then generate a random password. Use your knowledge about Python lists and loops to complete the challenge. 
 
-# Easy Version (Step 1)
+## Easy Version (Step 1)
 
 Generate the password in sequence. If the user wants 
 * 4 letters
@@ -135,10 +133,11 @@ fgdx$*924
 ```
 You can see that all the letters are together. All the symbols are together and all the numbers follow each other as well. Try to solve this problem first. 
 
-# Hard Version (Step 2)
+## Hard Version (Step 2)
 
 When you've completed the easy version, you're ready to tackle the hard version. In the advanced version of this project the final password does not follow a pattern. So the example above might look like this:
 ```
 x$d24g*f9
 ```
 And every time you generate a password, the positions of the symbols, numbers, and letters are different.
+
