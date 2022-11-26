@@ -1,3 +1,4 @@
+# Represents each stage.i.e index 0 = 0 lives, 1 = 1 lives ... 6 = 6 lives
 stages = ['''
   +---+
   |   |
@@ -55,6 +56,7 @@ stages = ['''
 =========
 ''']
 
+# print at begining of game
 logo = ''' 
  _                                             
 | |                                            
