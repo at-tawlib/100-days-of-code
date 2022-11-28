@@ -39,6 +39,10 @@ def play_game():
   score = 0
   question_A = select_question()
   question_B = select_question()
+  #make sure both questions are not the same
+  while question_A == question_B:
+    question_B = select_question()
+    
   should_continue = True
   print(art.logo)
   
@@ -53,13 +57,17 @@ def play_game():
       answer =  question_B
     
     #clear()
-    print(art.logo) 
+    print(art.logo)  
     
     if answer == check_answer(question_A, question_B):
       score += 1
       print(f"You're right! Current score: {score}.")
       question_A = answer
       question_B = select_question()
+      #make sure both questions are not the same
+      while question_A == question_B:
+        question_B = select_question()
+        
     else:
       print(f"Sorry, that's wrong. Final score: {score}")
       should_continue = False
