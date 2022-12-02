@@ -12,3 +12,6 @@
 	- Each shape drawn sequentially
 	- Draw a Random Walk using random colours
 - Use tuples to store generated random colours
+
+## Make a spirograph with turtle
+
