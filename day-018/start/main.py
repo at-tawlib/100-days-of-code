@@ -1,9 +1,9 @@
 # Day 018 (02-12-2022)
 # Turtle & The Graphical User Interface (GUI)
 import random
-from turtle import Turtle, Screen
+import turtle as t
 # create turtle
-timmy_the_turtle = Turtle()
+timmy_the_turtle = t.Turtle()
 timmy_the_turtle.shape("turtle")
 timmy_the_turtle.color("red")
 
@@ -47,17 +47,29 @@ for shape_side in range(3, 11):
     timmy_the_turtle.color(random.choice(colours))
     draw_shape(shape_side)
 
-# ###############################CREATE RANDOM WALK ##################################33
+# ############################### USING TUPLES  ##################################
+t.colormode(255)  # set the color mode
+
+
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    color_tuple = (r, g, b)
+    return color_tuple
+
+
+# ###############################CREATE RANDOM WALK ##################################
 timmy_the_turtle.reset()
 timmy_the_turtle.pensize(10)
 timmy_the_turtle.speed("fast")
 directions = [0, 90, 180, 270]
 
 for c in range(200):
-    timmy_the_turtle.color(random.choice(colours))
+    timmy_the_turtle.color(random_color())
     timmy_the_turtle.forward(30)
     timmy_the_turtle.setheading(random.choice(directions))
 
 
-screen = Screen()
+screen = t.Screen()
 screen.exitonclick()

@@ -11,3 +11,4 @@
 	- Each side has a length of 100
 	- Each shape drawn sequentially
 	- Draw a Random Walk using random colours
+- Use tuples to store generated random colours
