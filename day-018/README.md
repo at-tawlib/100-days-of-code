@@ -15,3 +15,9 @@
 
 ## Make a spirograph with turtle
 
+## Project: Make a Hirst Painting
+- Extract RGB values from a Hirst image using colorgram
+- Store the extracted values in a list
+- Use the store color list to paint
+- Paint 10 spots horizontally and vertically (in all draw 100 dots)
+- Each dot should be 20 in size and space around by 50
