@@ -1,4 +1,4 @@
-# Day -19
+# Day -19 etch-a-sketch
 # create a turtle to draw on the screen
 # use w = forward, s = backward, a = counter clockwise, d = clockwise and c = clear
 
