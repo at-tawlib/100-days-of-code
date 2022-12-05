@@ -1,6 +1,7 @@
 # Day 20 - Snake Project
-from turtle import Turtle, Screen
+from turtle import Screen
 from snake import Snake
+from food import Food
 import time
 
 # set up the screen
@@ -11,6 +12,8 @@ screen.title("My Snake Game")
 screen.tracer(0)     # cancel animation
 
 snake = Snake()
+food = Food()
+
 screen.listen()
 # move the snake
 screen.onkey(snake.up, "Up")
@@ -25,5 +28,8 @@ while game_is_on:
     time.sleep(0.1)
 
     snake.move()
+    # detect collision with food
+    if snake.head.distance(food) < 15:
+        food.refresh()
 
 screen.exitonclick()
