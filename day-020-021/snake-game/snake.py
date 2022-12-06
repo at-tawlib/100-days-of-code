@@ -17,14 +17,20 @@ class Snake:
         self.head = self.segments[0]    # set head of snake
 
     def create_snake(self):
-        """Create the snake body starting 3 turtle objects
-        each turtle has a size of 20"""
+        """Create the snake body with 3 segments each with a size of 20"""
         for position in STARTING_POSITIONS:
-            new_segment = Turtle("square")
-            new_segment.color("white")
-            new_segment.penup()
-            new_segment.goto(position)
-            self.segments.append(new_segment)
+            self.add_segment(position)
+
+    def add_segment(self, position):
+        """adds a new segment to the snake segments"""
+        new_segment = Turtle("square")
+        new_segment.color("white")
+        new_segment.penup()
+        new_segment.goto(position)
+        self.segments.append(new_segment)
+
+    def extend(self):
+        """add a new segment to the snake"""
 
     def move(self):
         """move last segment to second to last segment; and so on
