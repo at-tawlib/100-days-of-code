@@ -9,12 +9,10 @@ screen.bgcolor("black")
 screen.title("Pong")
 screen.tracer(0)    # off animation
 
-# create paddle on the right
+# create paddles and ball
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
-
 ball = Ball()
-
 
 # listen to screen events
 screen.listen()
@@ -30,5 +28,8 @@ while game_is_on:
     screen.update()
     ball.move()
 
+    # detect ball collision with wall
+    if ball.ycor() > 280 or ball.ycor() < -280:
+        ball.bounce()
 
 screen.exitonclick()
