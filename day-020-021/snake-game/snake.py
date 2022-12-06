@@ -11,12 +11,13 @@ RIGHT = 0
 class Snake:
 
     def __init__(self):
+        """create a turtle object with the following attributes"""
         self.segments = []  # to hold snake body
         self.create_snake()
         self.head = self.segments[0]    # set head of snake
 
     def create_snake(self):
-        """Create the snake body using 3 turtle objects
+        """Create the snake body starting 3 turtle objects
         each turtle has a size of 20"""
         for position in STARTING_POSITIONS:
             new_segment = Turtle("square")
@@ -36,17 +37,21 @@ class Snake:
         self.segments[0].forward(MOVE_DISTANCE)  # then move the first segment
 
     def up(self):
+        """move up"""
         if self.head.heading() != DOWN:
             self.head.setheading(UP)
 
     def down(self):
+        """move down"""
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
 
     def left(self):
+        """move left"""
         if self.head.heading() != RIGHT:
             self.head.setheading(LEFT)
 
     def right(self):
+        """move right"""
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
