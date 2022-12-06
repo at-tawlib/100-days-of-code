@@ -31,6 +31,8 @@ class Snake:
 
     def extend(self):
         """add a new segment to the snake"""
+        # get the position of the last segment and adds new segment to it
+        self.add_segment(self.segments[-1].position())
 
     def move(self):
         """move last segment to second to last segment; and so on
