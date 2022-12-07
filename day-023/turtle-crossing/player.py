@@ -11,8 +11,19 @@ class Player(Turtle):
         self.shape("turtle")
         self.penup()
         self.setheading(90)
-        self.goto(STARTING_POSITION)
+        self.go_to_start()
 
     def go_up(self):
         self.forward(MOVE_DISTANCE)
+
+    def go_to_start(self):
+        """move player to start position"""
+        self.goto(STARTING_POSITION)
+
+    def is_at_finish_line(self):
+        """return True if car is at finish line else False"""
+        if self.ycor() > FINISH_LINE_Y:
+            return True
+        else:
+            return False
 
