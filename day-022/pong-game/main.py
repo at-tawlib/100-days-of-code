@@ -26,7 +26,7 @@ screen.onkey(l_paddle.go_down, "s")
 # update screen
 game_is_on = True
 while game_is_on:
-    time.sleep(0.1)     # slow rate of refresh
+    time.sleep(ball.move_speed)     # slow rate of refresh
     screen.update()
     ball.move()
 
