@@ -9,6 +9,7 @@ class Scoreboard(Turtle):
         """build a new score board with the attributes below"""
         super().__init__()
         self.score = 0
+        self.high_score = 0
         self.color("white")
         self.penup()
         self.goto(0, 270)
@@ -17,12 +18,15 @@ class Scoreboard(Turtle):
 
     def update_scoreboard(self):
         """updates the scoreboard with the new score"""
-        self.write(f"Score: {self.score}", font=FONT, align=ALIGNMENT)
+        self.clear()
+        self.write(f"Score: {self.score} High Score: {self.high_score}", font=FONT, align=ALIGNMENT)
 
-    def game_over(self):
-        """prints Game Over"""
-        self.goto(0, 0)
-        self.write("GAME OVER", align=ALIGNMENT, font=FONT)
+    def reset(self):
+        """if score greater than high_score, replace high_score"""
+        if self.score > self.high_score:
+            self.high_score = self.score
+        self.score = 0
+        self.update_scoreboard()
 
     def increase_score(self):
         """increases the score by 1, then updates it"""
