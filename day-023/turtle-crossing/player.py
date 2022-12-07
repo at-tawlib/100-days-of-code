@@ -14,6 +14,7 @@ class Player(Turtle):
         self.go_to_start()
 
     def go_up(self):
+        """move turtle upwards when user presses up"""
         self.forward(MOVE_DISTANCE)
 
     def go_to_start(self):
@@ -26,4 +27,3 @@ class Player(Turtle):
             return True
         else:
             return False
-
