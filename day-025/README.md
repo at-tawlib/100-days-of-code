@@ -13,3 +13,13 @@
 - creata a dataframe for the new data
 - create a .csv file which contains the total count of each fur color
 
+## Project: us-states-game
+- Type in a state which is labelled on the map
+- Usage: Turtle, turtle screen, pandas
+**Steps**
+1. Convert the guess to Title Case
+2. Check if the guess is among the 50 states
+3. Write the correct guesses onto the map
+4. Use a loop to allow the user to keep guessing
+5. Record the correct guesses in a list
+6. Keep track of the score

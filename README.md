@@ -9,6 +9,7 @@
 
 
 ## Projects
-- day-025 - read-weather-data : read weather data using csv and pandas
+- day-025 : read-weather-data : read weather data using csv and pandas
 - manipulating data with `Pandas library`
-
+- day-025 : squirrel-data-census: extensive use of pandas
+- day-025 : us-states-game (pandas, turtle)
