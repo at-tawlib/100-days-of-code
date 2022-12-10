@@ -9,4 +9,6 @@
 
 
 ## Projects
-- day-025 - read-weather-data : read weather data using csv
+- day-025 - read-weather-data : read weather data using csv and pandas
+- manipulating data with `Pandas library`
+
