@@ -40,4 +40,8 @@ while cont_game:
     else:
         print("wrong answer")
 
+
+
+
+
 screen.exitonclick()
