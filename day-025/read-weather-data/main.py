@@ -17,29 +17,36 @@
 import pandas
 
 data = pandas.read_csv("weather-data.csv")
-# print(data)
-# print(data["temp"])
+print(data)
+print()
+print(data["temp"])
+print()
 
 # get data into a dictionary
 data_dict = data.to_dict()
 print(f"dictionary: {data_dict}")
+print()
 
 # get data into list
 temp_list = data["temp"].to_list()
 print(f"temperature list: {temp_list}")
+print()
 
 # calculate the average temperature
 average_temp = sum(temp_list) / len(temp_list)
 print(f"average temperature = {average_temp}")
+print()
 
 # use pandas to get mean (average), max, min
 print(f'mean: {data["temp"].mean()}')
 print(f'max: {data["temp"].max()}')
 print(f'min: {data.temp.min()}')
+print()
 
 # get data with the column name directly
 print(data.temp)
 print(data.condition)
+print()
 
 # get data in row / filtering data by column
 # get row data if data.day == monday
@@ -57,6 +64,16 @@ print(monday.condition)
 celsius_value = int(data[data.day == "Monday"].temp)
 fahrenheit_value = (celsius_value * 9/5) + 32
 print(f"Celsius = {celsius_value}, Fahrenheit = {fahrenheit_value}")
+
+# Create a dataframe from scratch
+print("\n*****************************************\n")
+data_dict = {
+    "students": ["Amy", "James", "Angela"],
+    "scores": [76, 56, 65]
+}
+data1 = pandas.DataFrame(data_dict)
+print(data)  # print data
+data1.to_csv("new_data.csv")    # store data in .csv fild
 
 
 
