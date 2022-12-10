@@ -74,24 +74,3 @@ data_dict = {
 data1 = pandas.DataFrame(data_dict)
 print(data)  # print data
 data1.to_csv("new_data.csv")    # store data in .csv fild
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
