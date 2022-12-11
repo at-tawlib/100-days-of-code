@@ -13,3 +13,4 @@
 - manipulating data with `Pandas library`
 - day-025 : squirrel-data-census: extensive use of pandas
 - day-025 : us-states-game (pandas, turtle)
+- day-026: NATO Alphabet Project [Pandas, List, Dictionary Comprehension]
