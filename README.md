@@ -13,4 +13,6 @@
 - manipulating data with `Pandas library`
 - day-025 : squirrel-data-census: extensive use of pandas
 - day-025 : us-states-game (pandas, turtle)
-- day-026: NATO Alphabet Project [Pandas, List, Dictionary Comprehension]
+- day-026 : NATO Alphabet Project [Pandas, List, Dictionary Comprehension]
+- day-027 : mile-km-converter [Tkinter]
+- Day-028 : Pomodoro [Tkinter]
