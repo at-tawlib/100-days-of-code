@@ -9,6 +9,7 @@
 
 
 ## Projects
+- [Band name generator] (day-01/band-name-generator.py) : uses input and string concatenation 
 - day-025 : read-weather-data : read weather data using csv and pandas
 - manipulating data with `Pandas library`
 - day-025 : squirrel-data-census: extensive use of pandas
