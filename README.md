@@ -26,16 +26,35 @@
 - [Day 027](day-027) - Tkinter, args, kwargs and Creating GUI Programs
 - [Day 028](day-028) - Tkinter, Dynamic Typing and the Pomodoro GUI Application
 - [Day 029](day-029) - Building a Password Manager GUI App with Tkinter
+- [Day 030](day-030) - Errors, Exceptions and JSON Data Improving the Password
 
 
 
 ## Projects
-- [Band name generator](day-001/band-name-generator.py) : uses input and string concatenation 
+- [Band name generator](day-001/band-name-generator.py) : uses input and string concatenation
+- [BMI Calculator](day-002/bmi-calculator.py) :
+- [Life in weeks](day-002/life-in-weeks.py) :
+- [Tip Calculator](day-002/tip-calculator.py) :
+- [BMI Calculator - 2](day-003/bmi-calculator-2.py)
+- [Leap Year](day-003/leap-year.py)
+- [Love Calculator](day-003/love-calculator.py)
+- [Pizza Order](day-003/pizza-order.py)
+- [Treasure Island](day-003/treasure-island.py)
+- [Rock Paper Scissors](day-004/rock-paper-scissors.py)
+- [Treasure Map](day-004/treasure-map.py)
+- [Fizz Buzz](day-005/fizz-buzz.py)
+- [Password Generator](day-005/password-generator.py)
+- [Hangman Game](day-007)
+- [](day-)
+- [](day-)
+- [](day-)
+- [](day-)
 - day-025 : read-weather-data : read weather data using csv and pandas
 - manipulating data with `Pandas library`
 - day-025 : squirrel-data-census: extensive use of pandas
 - day-025 : us-states-game (pandas, turtle)
-- day-026 : NATO Alphabet Project [Pandas, List, Dictionary Comprehension]
-- day-027 : mile-km-converter [Tkinter]
+- [NATO Alphabet Project](day-026/NATO-alphabet) : uses Pandas, List, Dictionary Comprehension, Error handling
+- [Mile-Km-Converter](day-027/mile-km-converter.py) : uses Tkinter
 - [Pomodoro](day-028/pomodoro) : uses Tkinter, Timer
 - [Password Manager](day-029/password-manager) : uses Tkinter, File IO, random password generator, list comprehension, pyperclip
+- [Password Manager Update](day-030/Password-Manager-Update) : uses all the above and JSON(Write, Read, Update and Search), Error Handling
