@@ -37,4 +37,5 @@
 - day-025 : us-states-game (pandas, turtle)
 - day-026 : NATO Alphabet Project [Pandas, List, Dictionary Comprehension]
 - day-027 : mile-km-converter [Tkinter]
-- Day-028 : Pomodoro [Tkinter]
+- [Pomodoro](day-028/pomodoro) : uses Tkinter, Timer
+- [Password Manager](day-029/password-manager) : uses Tkinter, File IO, random password generator, list comprehension, pyperclip
