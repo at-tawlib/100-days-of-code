@@ -25,6 +25,15 @@ data = pandas.read_csv("nato_phonetic_alphabet.csv")
 
 nato_dict = {row.letter: row.code for (index, row) in data.iterrows()}
 # 2. Create a list of the phonetic code words from a word that the user inputs.
-word = input("Enter a word: ")
-output_list = [nato_dict[letter.upper()] for letter in word]
-print(output_list)
+# 3. Catch the KeyError when a user enters a character that is not in the dictionary
+def generate_phonetic():
+    word = input("Enter a word: ")
+    try:
+        output_list = [nato_dict[letter.upper()] for letter in word]
+    except KeyError:
+        print("Sorry, only the letters in the alphabet please.")
+        generate_phonetic()
+    else:
+        print(output_list)
+
+generate_phonetic()

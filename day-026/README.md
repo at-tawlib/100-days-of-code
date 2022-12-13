@@ -101,6 +101,9 @@ You are going to use Dictionary Comprehension to create a dictionary called  `we
  Enter a word: Thomas
  ['Tango', 'Hotel', 'Oscar', 'Mike', 'Alfa', 'Sierra']
  ```
+- Catch the KeyError when a user enters a character that is not in the dictionary
+- Provide the feedback to the user when an illegal word is entered.
+- Continue prompting the user to enter another word until they entered a valid word.
 
  ***Steps***
  - Create a dictionary in this format:
