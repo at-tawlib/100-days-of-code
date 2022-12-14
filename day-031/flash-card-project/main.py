@@ -30,9 +30,9 @@ def next_card():
 
 def flip_card():
     """flip the card to show the English translation"""
-     canvas.itemconfig(card_title, text="English", fill="white")
-     canvas.itemconfig(card_text, text=current_card["English"], fill="white")
-     canvas.itemconfig(card_image, image=card_back_img)
+    canvas.itemconfig(card_title, text="English", fill="white")
+    canvas.itemconfig(card_text, text=current_card["English"], fill="white")
+    canvas.itemconfig(card_image, image=card_back_img)
 
 def is_known():
     """remove the card from the list"""
