@@ -12,7 +12,7 @@
 - [Day 012](day-012)  - Scope & Number Guessing Game
 - [Day 014](day-014) - Higher Lower Game Project
 - [Day 015](day-015) - Local Development Environment Setup & the Coffee Machine
-- [Day 016](day-016)  - Object Oriented Programming (OOP)
+- [Day 016](day-016) - Object-Oriented Programming (OOP)
 - [Day 017](day-017) - The Quiz Project & the Benefits of OOP
 - [Day 018](day-018) - Turtle & the Graphical User Interface GUI Part
 - [Day 019](day-019) - Instances, State and Higher Order Functions
@@ -27,8 +27,7 @@
 - [Day 028](day-028) - Tkinter, Dynamic Typing and the Pomodoro GUI Application
 - [Day 029](day-029) - Building a Password Manager GUI App with Tkinter
 - [Day 030](day-030) - Errors, Exceptions and JSON Data Improving the Password
-
-
+- [Day 031](day-031) - Capstone Project  III - Flash App Program
 
 ## Projects
 - [Band name generator](day-001/band-name-generator.py) : uses input and string concatenation
@@ -45,11 +44,13 @@
 - [Fizz Buzz](day-005/fizz-buzz.py)
 - [Password Generator](day-005/password-generator.py)
 - [Hangman Game](day-007)
-- [](day-)
-- [](day-)
-- [](day-)
-- [](day-)
-- day-025 : read-weather-data : read weather data using csv and pandas
+- [Caesar Cypher](day-008/caesar-cypher)
+- [Blind Auction](day-009/blind-auction)
+- [Calculator](day-010/calculator)
+- [Days in Month](day-010/days-in-month.py)
+- [Blackjack](day-011) : Capstone Project I
+- [Number Guessing Game](day-012)
+- [Read Weather Data](day-025/read-weather-data) : read weather data using csv and pandas
 - manipulating data with `Pandas library`
 - day-025 : squirrel-data-census: extensive use of pandas
 - day-025 : us-states-game (pandas, turtle)
@@ -58,3 +59,4 @@
 - [Pomodoro](day-028/pomodoro) : uses Tkinter, Timer
 - [Password Manager](day-029/password-manager) : uses Tkinter, File IO, random password generator, list comprehension, pyperclip
 - [Password Manager Update](day-030/Password-Manager-Update) : uses all the above and JSON(Write, Read, Update and Search), Error Handling
+- [Flash Card App](day-031) - Capstone Project II (tkinter, pandas, file IO, error handling, random )
