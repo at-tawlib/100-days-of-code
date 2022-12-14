@@ -3,11 +3,11 @@ import pandas
 import random
 
 BACKGROUND_COLOR = "#B1DDC6"
-current_card = {}
-to_learn = {}
+current_card = {}   # to hold the current card
+to_learn = {}       # to hold list of unknown cards
 
 try:
-    # get data from csv file
+    # get data from words_to_learn.csv
     data = pandas.read_csv("data/words_to_learn.csv")
 except FileNotFoundError:
     # if file not found, read from the original file
@@ -19,15 +19,17 @@ else:
     to_learn = data.to_dict(orient="records")
 
 def next_card():
+    """show the next random card"""
     global current_card, flip_timer
-    window.after_cancel(flip_timer)
-    current_card = random.choice(to_learn)
+    window.after_cancel(flip_timer)  # cancel the timer
+    current_card = random.choice(to_learn)  # get the next random card
     canvas.itemconfig(card_title, text="French", fill="black")
     canvas.itemconfig(card_text, text=current_card["French"], fill="black")
     canvas.itemconfig(card_image, image=card_front_img)
-    flip_timer = window.after(3000, func=flip_card)
+    flip_timer = window.after(3000, func=flip_card)  # wait for 3 seconds then flip the card
 
 def flip_card():
+    """flip the card to show the English translation"""
      canvas.itemconfig(card_title, text="English", fill="white")
      canvas.itemconfig(card_text, text=current_card["English"], fill="white")
      canvas.itemconfig(card_image, image=card_back_img)
