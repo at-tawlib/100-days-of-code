@@ -28,6 +28,7 @@
 - [Day 029](day-029) - Building a Password Manager GUI App with Tkinter
 - [Day 030](day-030) - Errors, Exceptions and JSON Data Improving the Password
 - [Day 031](day-031) - Capstone Project  III - Flash App Program
+- [Day 032](day-032) - Send Email (smtplib) & Manage Dates (datetime)
 
 ## Projects
 - [Band name generator](day-001/band-name-generator.py) : uses input and string concatenation
@@ -60,3 +61,4 @@
 - [Password Manager](day-029/password-manager) : uses Tkinter, File IO, random password generator, list comprehension, pyperclip
 - [Password Manager Update](day-030/Password-Manager-Update) : uses all the above and JSON(Write, Read, Update and Search), Error Handling
 - [Flash Card App](day-031) - Capstone Project II (tkinter, pandas, file IO, error handling, random )
+- [Birthday Email Wisher](day-032/birthday-wisher) - random, choice, pandas, datetime, smtplib(email), file IO, dictionary, tuple, comprehension
