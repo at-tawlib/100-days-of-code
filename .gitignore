@@ -1,4 +1,4 @@
 # ignore these folders
 .idea/
-.idea/
 __pycache__
+*api.txt
