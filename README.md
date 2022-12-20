@@ -29,6 +29,9 @@
 - [Day 030](day-030) - Errors, Exceptions and JSON Data Improving the Password
 - [Day 031](day-031) - Capstone Project  III - Flash App Program
 - [Day 032](day-032) - Send Email (smtplib) & Manage Dates (datetime)
+- [Day 033](day-033) - API Endpoints & API Parameters ISS Overhead Notifier
+- [Day 034](day-034) - API Practice - Creating a GUI Quiz App
+- [Day 036](day-036) - Stock Trading News Alert Project
 
 ## Projects
 - [Band name generator](day-001/band-name-generator.py) : uses input and string concatenation
@@ -51,14 +54,30 @@
 - [Days in Month](day-010/days-in-month.py)
 - [Blackjack](day-011) : Capstone Project I
 - [Number Guessing Game](day-012)
-- [Read Weather Data](day-025/read-weather-data) : read weather data using csv and pandas
-- manipulating data with `Pandas library`
-- day-025 : squirrel-data-census: extensive use of pandas
-- day-025 : us-states-game (pandas, turtle)
+- [Higher Lower Game](day-014) : 
+- [Coffee Machine](day-015/coffe-machine) :
+- [Coffee Machine Update](day-016/oop-coffee-machine-start)
+- [Quiz Game](day-017/quiz-game) :
+- [Hirst Painting](day-018/hirst-painting)
+- [Make spirograph](day-018/make-spirograph)
+- [Etch a Sketch](day-019/exercises/etch-a-sketch.py)
+- [Turtle Race](day-019/exercises/turtle-race.py)
+- [Snake Game](day-020-021/snake-game) : 
+- [Pong Game](day-022/pong-game)
+- [Turtle Crossing](day-023/turtle-crossing)
+- [Mail Merge Project](day-024/mail-merge-project)
+- [Read Weather Data](day-025/read-weather-data)
+- [Squirrel Data Census](day-025/squirrel-data-census) : extensive use of pandas
+- [Us States Game](day-025/us-states-game)
 - [NATO Alphabet Project](day-026/NATO-alphabet) : uses Pandas, List, Dictionary Comprehension, Error handling
 - [Mile-Km-Converter](day-027/mile-km-converter.py) : uses Tkinter
 - [Pomodoro](day-028/pomodoro) : uses Tkinter, Timer
 - [Password Manager](day-029/password-manager) : uses Tkinter, File IO, random password generator, list comprehension, pyperclip
-- [Password Manager Update](day-030/Password-Manager-Update) : uses all the above and JSON(Write, Read, Update and Search), Error Handling
-- [Flash Card App](day-031) - Capstone Project II (tkinter, pandas, file IO, error handling, random )
-- [Birthday Email Wisher](day-032/birthday-wisher) - random, choice, pandas, datetime, smtplib(email), file IO, dictionary, tuple, comprehension
+- [Password Manager Update](day-030/Password-Manager-Update) : uses all the above and JSON (Write, Read, Update and Search), Error Handling
+- [Flash Card App](day-031) : Capstone Project II (tkinter, pandas, file IO, error handling, random )
+- [Motivational Quote](day-032/motivational-quote) : datetime, File IO, random, smtplib, 
+- [Birthday Email Wisher](day-032/birthday-wisher) : random, choice, pandas, datetime, smtplib (email), file IO, dictionary, tuple, comprehension
+- [ISS tracker](day-033/iss-tracker) : API, smtplip, JSON, datetime
+- [Kanye West Quotes](day-033/kanye-west-quotes) : API, tkinter, JSON
+- [Quiz App Update](day-034/quizzler-app) : API, tkinter, OOP,
+- [Stock Trading News Alert](day-036/stock-news) : API, JSON, dictionaries, slice, comprehension, list
