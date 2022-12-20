@@ -1,11 +1,11 @@
 import requests
 
-STOCK_API_KEY = "62NORLW171QQDJ6W"
+STOCK_API_KEY = "#########"     # replace this with your API
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 
-NEWS_API_KEY = "e4edab13198f48228640fea1f691e403"
+NEWS_API_KEY = "##########"     # replace this with your API
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 stock_parameters = {
