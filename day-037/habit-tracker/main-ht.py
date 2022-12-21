@@ -1,10 +1,17 @@
 import requests
 from datetime import datetime
 
+api_values = {}
+with open("api.txt") as file:
+    api_text = file.readlines()
+for item in api_text:
+    key, value = item.split(": ", 1)
+    api_values[key] = value.strip()
+
+
 pixela_endpoint = "https://pixe.la/v1/users"
-# replace the values below
-USERNAME = "####"
-TOKEN = "##############3333##"
+USERNAME = api_values["USERNAME"]
+TOKEN = api_values["TOKEN"]
 GRAPH_ID = "graph1"
 
 # 1. creating the user account
@@ -43,13 +50,13 @@ graph_update_endpoint = f"{graph_endpoint}/{GRAPH_ID}"
 
 
 # 3. Add pixel data
-# today = datetime(year=2022, month=12, day=20)
+# today = datetime(year=2022, month=12, day=19)
 today = datetime.now()
 print(today.strftime("%Y%m%d"))
 
 pixel_creation_config = {
     "date": today.strftime("%Y%m%d"),
-    "quantity": input("How many kilometers did you cycle today? ")
+    "quantity": input("How many hours did you code today? ")
 }
 pixel_creation_endpoint = f"{graph_endpoint}/{GRAPH_ID}"
 # response = requests.post(url=pixel_creation_endpoint, json=pixel_creation_config, headers=headers)
@@ -58,7 +65,7 @@ pixel_creation_endpoint = f"{graph_endpoint}/{GRAPH_ID}"
 # 4. Update yesterdays value
 update_pixel_endpoint = f"{pixel_creation_endpoint}/{today.strftime('%Y%m%d')}"
 update_pixel_config = {
-    "quantity": "6"
+    "quantity": "8"
 }
 # response = requests.put (url=update_pixel_endpoint, json=update_pixel_config, headers=headers)
 # print(response.text)
