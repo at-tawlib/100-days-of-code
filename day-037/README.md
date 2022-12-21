@@ -1,8 +1,16 @@
 # Day 37 Habit Tracking Project API Post Requests & Headers
-## Steps in using [PIxela](https://pixe.la/)
-1. Create user account
-2. Create a graph definition
-3. Get the graph
-4. Post value to the graph
-5. Browse again
-6. Find out more [here](https://pixe.la/v1/users/a-know/graphs/test-graph.html)
+
+## Habit Tracker App
+- App to track your daily habits by logging it to Pixela
+- You can set your goals and log it in daily 
+- Pixela creates a pixel like graph to track your progress
+- Steps in using [PIxela](https://pixe.la/)
+
+## ⚙ Tools and Technologies Covered
+- APIs
+- [Pixela API](https://docs.pixe.la/) 
+- HTTP Get Requests
+- HTTP Post Requests
+- HTTP put and delete requests
+- Advance Authentication using an HTTP Header
+- datetime (strftime)
