@@ -81,3 +81,4 @@
 - [Kanye West Quotes](day-033/kanye-west-quotes) : API, tkinter, JSON
 - [Quiz App Update](day-034/quizzler-app) : API, tkinter, OOP,
 - [Stock Trading News Alert](day-036/stock-news) : API, JSON, dictionaries, slice, comprehension, list
+- [Habit Tracker App](day-037/habit-tracker) : API (get, put, delete), datetime(strftime)
