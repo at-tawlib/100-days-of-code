@@ -14,3 +14,5 @@
 - HTTP put and delete requests
 - Advance Authentication using an HTTP Header
 - datetime (strftime)
+- .env (environment variables)
+- decouple module
