@@ -6,3 +6,8 @@
 - Use the News APi to get articles related to Tesla. (Get the first three articles)
 - Send each article as a message using Twilio
 
+## ⚙ Tools and Technologies Covered
+- APIs
+- using environment variables (.env)
+- [Alpha Advantage Stock API](https://www.alphavantage.co/)
+- [News API](https://newsapi.org/)
