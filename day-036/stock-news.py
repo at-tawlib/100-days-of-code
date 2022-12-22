@@ -1,11 +1,12 @@
 import requests
+from decouple import  config
 
-STOCK_API_KEY = "#########"     # replace this with your API
+STOCK_API_KEY = config('STOCK_API_KEY')
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 
-NEWS_API_KEY = "##########"     # replace this with your API
+NEWS_API_KEY = config('NEWS_API_KEY')
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 stock_parameters = {
