@@ -1,0 +1,50 @@
+## Projects
+- [Band name generator](day-001/band-name-generator.py) : uses input and string concatenation
+- [BMI Calculator](day-002/bmi-calculator.py) :
+- [Life in weeks](day-002/life-in-weeks.py) :
+- [Tip Calculator](day-002/tip-calculator.py) :
+- [BMI Calculator - 2](day-003/bmi-calculator-2.py)
+- [Leap Year](day-003/leap-year.py)
+- [Love Calculator](day-003/love-calculator.py)
+- [Pizza Order](day-003/pizza-order.py)
+- [Treasure Island](day-003/treasure-island.py)
+- [Rock Paper Scissors](day-004/rock-paper-scissors.py)
+- [Treasure Map](day-004/treasure-map.py)
+- [Fizz Buzz](day-005/fizz-buzz.py)
+- [Password Generator](day-005/password-generator.py)
+- [Hangman Game](day-007)
+- [Caesar Cypher](day-008/caesar-cypher)
+- [Blind Auction](day-009/blind-auction)
+- [Calculator](day-010/calculator)
+- [Days in Month](day-010/days-in-month.py)
+- [Blackjack](day-011) : Capstone Project I
+- [Number Guessing Game](day-012)
+- [Higher Lower Game](day-014) : 
+- [Coffee Machine](day-015/coffe-machine) :
+- [Coffee Machine Update](day-016/oop-coffee-machine-start)
+- [Quiz Game](day-017/quiz-game) :
+- [Hirst Painting](day-018/hirst-painting)
+- [Make spirograph](day-018/make-spirograph)
+- [Etch a Sketch](day-019/exercises/etch-a-sketch.py)
+- [Turtle Race](day-019/exercises/turtle-race.py)
+- [Snake Game](day-020-021/snake-game) : 
+- [Pong Game](day-022/pong-game)
+- [Turtle Crossing](day-023/turtle-crossing)
+- [Mail Merge Project](day-024/mail-merge-project)
+- [Read Weather Data](day-025/read-weather-data)
+- [Squirrel Data Census](day-025/squirrel-data-census) : extensive use of pandas
+- [Us States Game](day-025/us-states-game)
+- [NATO Alphabet Project](day-026/NATO-alphabet) : uses Pandas, List, Dictionary Comprehension, Error handling
+- [Mile-Km-Converter](day-027/mile-km-converter.py) : uses Tkinter
+- [Pomodoro](day-028/pomodoro) : uses Tkinter, Timer
+- [Password Manager](day-029/password-manager) : uses Tkinter, File IO, random password generator, list comprehension, pyperclip
+- [Password Manager Update](day-030/Password-Manager-Update) : uses all the above and JSON (Write, Read, Update and Search), Error Handling
+- [Flash Card App](day-031) : Capstone Project II (tkinter, pandas, file IO, error handling, random )
+- [Motivational Quote](day-032/motivational-quote) : datetime, File IO, random, smtplib, 
+- [Birthday Email Wisher](day-032/birthday-wisher) : random, choice, pandas, datetime, smtplib (email), file IO, dictionary, tuple, comprehension
+- [ISS tracker](day-033/iss-tracker) : API, smtplip, JSON, datetime
+- [Kanye West Quotes](day-033/kanye-west-quotes) : API, tkinter, JSON
+- [Quiz App Update](day-034/quizzler-app) : API, tkinter, OOP,
+- [Stock Trading News Alert](day-036/stock-news) : API, JSON, dictionaries, slice, comprehension, list
+- [Habit Tracker App](day-037/habit-tracker.py) : API (get, put, delete), datetime(strftime)
+- [Workout Tracker](day-038/workout-tracking.py) : API (put), .env, datetime(strftime), nutritionixAPI, googlesheets
