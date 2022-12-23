@@ -17,17 +17,15 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 10:](day-010) Functions with Outputs
 - [Day 11:](day-011) The Blackjack Capstone Project
 - [Day 12:](day-012) Scope & Number Guessing Game
-- [Day 13:](day-013) Debugging: How to Find and Fix Errors in your Code
 - [Day 14:](day-014) Higher Lower Game Project
 
 ## 📚 Intermediate
 - [Day 15:](day-015) Local Development Environment Setup & the Coffee Machine
-- [Day 16:](day-016) Object Oriented Programming (OOP)
+- [Day 16:](day-016) Object-Oriented Programming (OOP)
 - [Day 17:](day-017) The Quiz Project & The Benefits of OOP
 - [Day 18:](day-018) Turtle & the Graphical User Interface (GUI)
 - [Day 19:](day-019) Instances, State and Higher Order Functions
-- [Day 20:](day-020) Build the Snake Game Part 1: Animation & Coordinates
-- [Day 21:](day-021) Build the Snake Game Part 2: Inheritance & List Slicing
+- [Day 20:](day-020-021) Build the Snake Game (Animation & Coordinates, Inheritance & List Slicing)
 - [Day 22:](day-022) Build Pong: The Famous Arcade Game
 - [Day 23:](day-023) The Turtle Crossing Capstone Project
 - [Day 24:](day-024) Files, Directories and Paths
@@ -47,3 +45,5 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 36:](day-036) Stock Trading News Alert Project
 - [Day 37:](day-037) Habit Tracking Project: API Post Requests & Headers
 - [Day 38:](day-038) Workout Tracking Using Google Sheets
+- [Day 39:](day-039) Capstone Part 1: Flight Deal Finder
+- [Day 40:](day-040) Capstone Part 2: Flight Club

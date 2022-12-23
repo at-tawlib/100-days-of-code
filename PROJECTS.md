@@ -45,6 +45,7 @@
 - [ISS tracker](day-033/iss-tracker) : API, smtplip, JSON, datetime
 - [Kanye West Quotes](day-033/kanye-west-quotes) : API, tkinter, JSON
 - [Quiz App Update](day-034/quizzler-app) : API, tkinter, OOP,
+- [Rain Notifier](day-035/rain-notifier.py) : API, 
 - [Stock Trading News Alert](day-036/stock-news.py) : API, JSON, dictionaries, slice, comprehension, list
 - [Habit Tracker App](day-037/habit-tracker.py) : API (get, put, delete), datetime(strftime)
 - [Workout Tracker](day-038/workout-tracking.py) : API (put), .env, datetime(strftime), nutritionixAPI, googlesheets

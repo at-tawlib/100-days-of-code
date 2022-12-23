@@ -2,6 +2,7 @@
 
 ## rain-notifier
 - Get rain status from the OWM API
+- Send a notification whether it is going to rain for the next 12 hours
 
 ## ⚙ Tools and Technologies Covered
 - APIs
