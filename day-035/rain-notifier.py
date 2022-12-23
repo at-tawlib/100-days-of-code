@@ -5,10 +5,8 @@ import requests
 API_KEY = "eb4582808b8b412bac02cb6b48444624"
 LATITUDE = 5.603717
 LONGITUDE = -0.186964
-OWM_Endpoint = "https://api.openweathermap.org/data/2.5/weather"
 # weather data for five days with call for every 3 hours
 OWM_Endpoint_Five_Day = "https://api.openweathermap.org/data/2.5/forecast"
-OWM_Endpoint_One_Call = "https://api.openweathermap.org/data/3.0/onecall"
 parameters = {
     "lat": LATITUDE,
     "lon": LONGITUDE,
@@ -30,6 +28,3 @@ for hour_data in first_twelve_hours:
 
 if will_rain:
     print("Bring an umbrella")
-
-# run everyday at 7 am to check whether it will rain that day
-
