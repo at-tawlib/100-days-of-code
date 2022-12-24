@@ -49,3 +49,5 @@
 - [Stock Trading News Alert](day-036/stock-news.py) : API, JSON, dictionaries, slice, comprehension, list
 - [Habit Tracker App](day-037/habit-tracker.py) : API (get, put, delete), datetime(strftime)
 - [Workout Tracker](day-038/workout-tracking.py) : API (put), .env, datetime(strftime), nutritionixAPI, googlesheets
+- [Personal Website with HTML](day-041-042): HTML
+- [Personal Website](day-044): HTML, Css

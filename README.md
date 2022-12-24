@@ -45,5 +45,6 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 36:](day-036) Stock Trading News Alert Project
 - [Day 37:](day-037) Habit Tracking Project: API Post Requests & Headers
 - [Day 38:](day-038) Workout Tracking Using Google Sheets
-- [Day 39:](day-039) Capstone Part 1: Flight Deal Finder
-- [Day 40:](day-040) Capstone Part 2: Flight Club
+- [Day 41-42:](day-041-042) Introduction and Intermediate HTML
+- [Day 44:](day-044) Intermediate CSS
+- [Day 45:](day-045) Web Scraping with Beautiful Soup
