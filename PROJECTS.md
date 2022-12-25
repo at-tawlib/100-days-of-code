@@ -51,3 +51,4 @@
 - [Workout Tracker](day-038/workout-tracking.py) : API (put), .env, datetime(strftime), nutritionixAPI, googlesheets
 - [Personal Website with HTML](day-041-042): HTML
 - [Personal Website](day-044): HTML, Css
+- [Top Movies](day-045/top-movies.py) : Beautiful soup, requests, file IO, lists
