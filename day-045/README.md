@@ -1,4 +1,9 @@
 # Day 045 Web Scraping with Beautiful Soup
 
-**Web Scraping**: get information from website HTML code
-**Beautiful Soup**: python module that makes sense of a website
+## beautiful-soup.py
+- scrape text from a website
+
+## live-scraping.py
+- scraping from live website
+
+## Scrape top 100 movies from a website
