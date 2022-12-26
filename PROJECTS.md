@@ -51,4 +51,5 @@
 - [Workout Tracker](day-038/workout-tracking.py) : API (put), .env, datetime(strftime), nutritionixAPI, googlesheets
 - [Personal Website with HTML](day-041-042): HTML
 - [Personal Website](day-044): HTML, Css
-- [Top Movies](day-045/top-movies.py) : Beautiful soup, requests, file IO, lists
+- [Top Movies](day-045/top-movies.py) : Beautiful soup (web scraping), requests, file IO, lists, requests (HTTP)
+- [Musical Time Machine](day-046/musical-time-machine.py): API, Beautiful soup (web scraping), spotipy, requests(HTTP), Spotify, BillBoard Top 100

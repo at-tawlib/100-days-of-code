@@ -48,3 +48,4 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 41-42:](day-041-042) Introduction and Intermediate HTML
 - [Day 44:](day-044) Intermediate CSS
 - [Day 45:](day-045) Web Scraping with Beautiful Soup
+- [Day 46:](day-046) Create a Spotify Playlist Using The Musical Time Machine
