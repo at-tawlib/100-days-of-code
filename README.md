@@ -50,3 +50,8 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 45:](day-045) Web Scraping with Beautiful Soup
 - [Day 46:](day-046) Create a Spotify Playlist Using The Musical Time Machine
 - [Day 47:](day-047) Create an Automated Amazon Price Tracker
+- [Day 48:](day-048) Selenium Webdriver Browser and Game Playing Bot
+- [Day 49:](day-049) Automating Job Applications on LinkedIn
+- [Day 50:](day-050) Auto Tinder Swiping Bot
+- [Day 51:](day-051) Internet Speed Twitter Complaint Bot
+- [Day 52:](day-052) Instagram Follower Bot
