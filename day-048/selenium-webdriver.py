@@ -40,7 +40,5 @@ print(documentation_link.text)
 bug_link = driver.find_element(By.XPATH, '//*[@id="site-map"]/div[2]/div/ul/li[3]/a')
 print(bug_link.text)
 
-
-
 # driver.close()
 driver.quit()
