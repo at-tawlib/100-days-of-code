@@ -55,3 +55,4 @@
 - [Musical Time Machine](day-046/musical-time-machine.py): API, Beautiful soup (web scraping), spotipy, requests(HTTP), Spotify, BillBoard Top 100
 - [Amazon Price Tracker](day-047/amazon-price-tracker.py) : Web scraping (Beautiful Soup)
 - [Cookie clicker](day-048/cookie-clicker.py) : Selenium, dictionary comprehension, time
+- [Twitter Complaint Bot](day-051) : Selenium, OOP, time, env
