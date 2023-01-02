@@ -19,14 +19,12 @@
 **Warning**  you should convert the result to a whole number.
 
 ### Example Input
-
 ```plaintext
 weight = 80
 height = 1.75
 ```
 
 ### Example Output
-
 ```plaintext
 80 ÷ (1.75 x 1.75) = 26.122448979591837
 26
@@ -42,21 +40,18 @@ height = 1.75
 Where x, y and z are replaced with the actual calculated numbers.
 
 ### Example Output
-
 ```plaintext
 You have 12410 days, 1768 weeks, and 408 months left.
 ```
 
 ## [Project - Tip Calculator](tip-calculator.py)
-
-## Instructions
+### Instructions
 - If the bill was $150.00, split between 5 people, with 12% tip. 
 - Each person should pay (150.00 / 5) * 1.12 = 33.6 
 - Format the result to 2 decimal places = 33.60
 - Thus, everyone's share of the total bill is $30.00 plus a $3.60 tip.
 
-## Example Input
-
+### Example Input
 ```
 Welcome to the tip calculator!
 What was the total bill? $124.56
@@ -64,8 +59,7 @@ How much tip would you like to give? 10, 12, or 15? 12
 How many people to split the bill? 7
 ```
 
-## Example Output
-
+### Example Output
 ```
 Each person should pay: $19.93
 ```
