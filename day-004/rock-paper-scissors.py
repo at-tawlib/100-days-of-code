@@ -27,7 +27,6 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
 game_images = [rock, paper, scissors]
 print("Welcome to Rock Papers Scissors Game\n")
 choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. "))
@@ -51,4 +50,3 @@ else:
     print("You win!")
   elif computer_choice == choice:
     print("It's a draw")
-
