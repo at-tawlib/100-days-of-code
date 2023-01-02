@@ -1,15 +1,16 @@
-## Projects
+# Projects
+## 🔰 Beginner
 - [Band name generator](day-001/band-name-generator.py) : uses input and string concatenation
-- [BMI Calculator](day-002/bmi-calculator.py) :
-- [Life in weeks](day-002/life-in-weeks.py) :
-- [Tip Calculator](day-002/tip-calculator.py) :
-- [BMI Calculator - 2](day-003/bmi-calculator-2.py)
-- [Leap Year](day-003/leap-year.py)
-- [Love Calculator](day-003/love-calculator.py)
-- [Pizza Order](day-003/pizza-order.py)
-- [Treasure Island](day-003/treasure-island.py)
-- [Rock Paper Scissors](day-004/rock-paper-scissors.py)
-- [Treasure Map](day-004/treasure-map.py)
+- [BMI Calculator](day-002/bmi-calculator.py) : Input, Output, F-string, Math
+- [Life in weeks](day-002/life-in-weeks.py) : Input, Output, F-string
+- [Tip Calculator](day-002/tip-calculator.py) : Input, Output, F-string, Type conversion
+- [BMI Calculator - 2](day-003/bmi-calculator-2.py) : Input, Output, F-string, if-else
+- [Leap Year](day-003/leap-year.py) : if-else, Input, Output
+- [Love Calculator](day-003/love-calculator.py) : Input, Output, if-else
+- [Pizza Order](day-003/pizza-order.py) : Input, Output, if-else
+- [Treasure Island](day-003/treasure-island.py) : Input, Output, if-else
+- [Rock Paper Scissors](day-004/rock-paper-scissors.py) : Input, Output, Random, List, if-else
+- [Treasure Map](day-004/treasure-map.py) : Input, Output, List
 - [Fizz Buzz](day-005/fizz-buzz.py)
 - [Password Generator](day-005/password-generator.py)
 - [Hangman Game](day-007)
@@ -20,6 +21,8 @@
 - [Blackjack](day-011) : Capstone Project I
 - [Number Guessing Game](day-012)
 - [Higher Lower Game](day-014) : 
+
+## 📚 Intermediate
 - [Coffee Machine](day-015/coffe-machine) :
 - [Coffee Machine Update](day-016/oop-coffee-machine-start)
 - [Quiz Game](day-017/quiz-game) :
@@ -40,6 +43,8 @@
 - [Password Manager](day-029/password-manager) : uses Tkinter, File IO, random password generator, list comprehension, pyperclip
 - [Password Manager Update](day-030/Password-Manager-Update) : uses all the above and JSON (Write, Read, Update and Search), Error Handling
 - [Flash Card App](day-031) : Capstone Project II (tkinter, pandas, file IO, error handling, random )
+
+## 👨‍💻 Intermediate+
 - [Motivational Quote](day-032/motivational-quote) : datetime, File IO, random, smtplib, 
 - [Birthday Email Wisher](day-032/birthday-wisher) : random, choice, pandas, datetime, smtplib (email), file IO, dictionary, tuple, comprehension
 - [ISS tracker](day-033/iss-tracker) : API, smtplip, JSON, datetime
@@ -56,3 +61,6 @@
 - [Amazon Price Tracker](day-047/amazon-price-tracker.py) : Web scraping (Beautiful Soup)
 - [Cookie clicker](day-048/cookie-clicker.py) : Selenium, dictionary comprehension, time
 - [Twitter Complaint Bot](day-051) : Selenium, OOP, time, env
+- [Personal Site](day-056/my-personal-site) : Flask, HTML
+- [Name Card](day-056/name-card) : Flask, HTML
+- [Blog Templating](day-057/blog-templating): Flask, Jinja,API, HTML
