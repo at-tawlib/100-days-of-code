@@ -1,14 +1,18 @@
-# Day 002
+# Day 002 - Understanding Data Types and How to Manipulate Strings
 
-## Exercise 2 - BMI Calculator
+## Goals and Tools
+- Python Primitive Data Types 
+- Type Error, Type Checking and Type Conversion 
+- Mathematical Operations in Python 
+- BMI Calculator 
+- Number Manipulation and F Strings in Python 
+- Life in Weeks 
+- Project: Tip Calculator
 
-### Instructions
-
-Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
-
-The BMI is a measure of someone's weight taking into account their height. e.g. If a tall person and a short person both weigh the same amount, the short person is usually more overweight.
-
-The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m):
+## [BMI Calculator](bmi-calculator.py)
+- Program calculates the Body Mass Index (BMI) from a user's weight and height.
+- The BMI is a measure of someone's weight taking into account their height. e.g. If a tall person and a short person both weigh the same amount, the short person is usually more overweight. 
+- The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m):
 
 ![](https://codingrooms-user-uploads-us-west-2.s3-us-west-2.amazonaws.com/be5ff193-a1ad-4f8e-ba40-504c85610518/BMI+Image+Small.jpeg)
 
@@ -28,29 +32,14 @@ height = 1.75
 26
 ```
 
-## Exercise 3 - Life in Weeks
+## [Life in Weeks](life-in-weeks.py)
 
-### Instructions
-
-I was reading this article by Tim Urban - Your Life in Weeks and realised just how little time we actually have.
-
-[https://waitbutwhy.com/2014/05/life-weeks.html](https://waitbutwhy.com/2014/05/life-weeks.html)
-
-Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
-
-It will take your current age as the input and output a message with our time left in this format:
+- Program uses maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
+- It will take your current age as the input and output a message with our time left in this format:
 
 > You have x days, y weeks, and z months left.
 
 Where x, y and z are replaced with the actual calculated numbers.
-
-**Warning**  your output should match the Example Output format exactly, even the positions of the commas and full stops.
-
-### Example Input
-
-```plaintext
-56
-```
 
 ### Example Output
 
@@ -58,20 +47,13 @@ Where x, y and z are replaced with the actual calculated numbers.
 You have 12410 days, 1768 weeks, and 408 months left.
 ```
 
-## Project - Tip Calculator
+## [Project - Tip Calculator](tip-calculator.py)
 
 ## Instructions
-
-If the bill was $150.00, split between 5 people, with 12% tip. 
-
-Each person should pay (150.00 / 5) * 1.12 = 33.6
-
-Format the result to 2 decimal places = 33.60
-
-Thus everyone's share of the total bill is $30.00 plus a $3.60 tip.
-
-Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
-
+- If the bill was $150.00, split between 5 people, with 12% tip. 
+- Each person should pay (150.00 / 5) * 1.12 = 33.6 
+- Format the result to 2 decimal places = 33.60
+- Thus, everyone's share of the total bill is $30.00 plus a $3.60 tip.
 
 ## Example Input
 
@@ -87,4 +69,3 @@ How many people to split the bill? 7
 ```
 Each person should pay: $19.93
 ```
-
