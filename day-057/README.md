@@ -13,8 +13,13 @@
 - Insert the result from the API call into the template
 - Generate an HTML with the results
 
-## get_blog(num)
+## get_blog(num)]
 - Multiline statements with Jinja
-- URL building with Flask
 - Pass a json from the server and get data from the json in html with Jinja
-- 
+- Render the json data when html file is opened
+
+## [Blog Templating](blog-templating)
+- Use Flask Jinja, API to create a blog website
+- Get data with API request call
+- Display posts title and subtitle in the home page
+- Open post and display all other data
