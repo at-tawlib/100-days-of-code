@@ -8,8 +8,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-USERNAME = config("USERNAME")
-PASSWORD = config("PASSWORD")
+USERNAME = config('INSTA_USERNAME')
+PASSWORD = config('INSTA_PASSWORD')
 
 class InstaFollower:
 
