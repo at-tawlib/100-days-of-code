@@ -1,5 +1,6 @@
 # 04-01-23 Instagram follower bot with Selenium
 import time
+from decouple import config
 
 from selenium import webdriver
 from selenium.common.exceptions import ElementClickInterceptedException
@@ -7,8 +8,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-username = "azindo7"
-password = "azindotawlib55"
+USERNAME = config("USERNAME")
+PASSWORD = config("PASSWORD")
 
 class InstaFollower:
 
@@ -19,8 +20,8 @@ class InstaFollower:
     def login(self):
         """Open instagram and login to account"""
         self.driver.get("https://www.instagram.com/")
-        self.driver.find_element(By.NAME, "username").send_keys(username)
-        self.driver.find_element(By.NAME, "password").send_keys(password)
+        self.driver.find_element(By.NAME, "username").send_keys(USERNAME)
+        self.driver.find_element(By.NAME, "password").send_keys(PASSWORD)
         self.driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[3]/button').click()
 
     def find_followers(self):
