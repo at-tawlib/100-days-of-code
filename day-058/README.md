@@ -1,32 +1,22 @@
-# Day 58 - Web Foundation Boostrap
+# Day 58 - Web Foundation Boostrap (Tindog App)
 
 ## Goals
-'471 What is Bootstrap_.mp4'            '474 The Bootstrap Navigation Bar.mp4'
-'472 Installing Bootstrap.mp4'          "475 What We'll Make - Tindog.mp4"
-'473 Web Design 101 - Wireframing.mp4'
-'477 Setting Up Our New Project.mp4'
-'478 The Bootstrap Grid Layout System.mp4'
-'480 Adding Grid Layouts to Our Website.mp4'
-'482 Bootstrap Containers.mp4'
-'483 Bootstrap Buttons and Font Awesome.mp4'
-'484 Styling Our Website Challenges and Solutions.mp4'
-'486 Solution to Bootstrap Challenge 1.mp4'
-'477 Setting Up Our New Project.mp4'
-'478 The Bootstrap Grid Layout System.mp4'
-'480 Adding Grid Layouts to Our Website.mp4'
-'482 Bootstrap Containers.mp4'
-'483 Bootstrap Buttons and Font Awesome.mp4'
-'484 Styling Our Website Challenges and Solutions.mp4'
-'486 Solution to Bootstrap Challenge 1.mp4'
-'487 The Bootstrap Carousel Part 1.mp4'  '489 Bootstrap Cards.mp4'
-'488 The Bootstrap Carousel Part 2.mp4'
-'490 CSS Z-index and Stacking Order.mp4'
-'491 Advanced CSS - Media Query Breakpoints.mp4'
-'493 Solution to Bootstrap Challenge 2.mp4'
-'494 Code Refactoring.mp4'
-'495 Refactor Our Website Part 1.mp4'
-'496 Advanced CSS - Combining Selectors.mp4'
-'497 Refactoring Our Website Part 2.mp4'
-'498 Advanced CSS - Selector Priority.mp4'
-'499 Completing the Website.mp4'
+- What is Bootstrap          
+- Installing Bootstrap
+- Wireframing
+- The Bootstrap Navigation Bar
+- The Bootstrap Grid Layout System
+- Adding Grid Layouts to Our Website
+- Bootstrap Containers
+- Bootstrap Buttons and Font Awesome
+- Styling Our Website Challenges and Solutions
+- The Bootstrap Carousel
+- Bootstrap Cards
+- CSS Z-index and Stacking Order
+- Advanced CSS - Media Query Breakpoints
+- Code Refactoring
+- Advanced CSS - Combining Selectors
+- Advanced CSS - Selector Priority
 
+
+## Project:  Tindog Website 
