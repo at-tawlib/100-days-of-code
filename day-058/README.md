@@ -1,4 +1,4 @@
-# Day 58 - Web Foundation Boostrap (Tindog App)
+# Day 58 - Web Foundation Boostrap (Tindog Website)
 
 ## Goals
 - What is Bootstrap          
