@@ -1,4 +1,7 @@
 # Day 005 For loop
+## Goals
+- Using the for loop with Python Lists
+- for loops and the range() function
 
 ## Exercise 1 - Average Height
 ### Instructions
