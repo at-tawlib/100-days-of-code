@@ -52,6 +52,7 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 47:](day-047) Create an Automated Amazon Price Tracker
 - [Day 48:](day-048) Selenium Webdriver Browser and Game Playing Bot
 - [Day 51:](day-051) Internet Speed Twitter Complaint Bot
+- [Day 52:](day-052) Instagram Follower Bot
 - [Day 54:](day-054) Introduction to Web Development with Flask
 - [Day 55:](day-055) HTML & URL Parsing in Flask and the Higher Lower Game
 - [Day 56:](day-056) Rendering HTML/Static Files and Using Website Templates
