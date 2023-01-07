@@ -61,6 +61,8 @@
 - [Amazon Price Tracker](day-047/amazon-price-tracker.py) : Web scraping (Beautiful Soup)
 - [Cookie clicker](day-048/cookie-clicker.py) : Selenium, dictionary comprehension, time
 - [Twitter Complaint Bot](day-051) : Selenium, OOP, time, env
+- [Instagram Follower Bot](day-052/insta_follower.py) : Selenium
 - [Personal Site](day-056/my-personal-site) : Flask, HTML
 - [Name Card](day-056/name-card) : Flask, HTML
 - [Blog Templating](day-057/blog-templating): Flask, Jinja,API, HTML
+- [Tindog Website](day-058): Bootstrap
