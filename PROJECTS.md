@@ -11,8 +11,8 @@
 - [Treasure Island](day-003/treasure-island.py) : Input, Output, if-else
 - [Rock Paper Scissors](day-004/rock-paper-scissors.py) : Input, Output, Random, List, if-else
 - [Treasure Map](day-004/treasure-map.py) : Input, Output, List
-- [Fizz Buzz](day-005/fizz-buzz.py)
-- [Password Generator](day-005/password-generator.py)
+- [Fizz Buzz](day-005/fizz-buzz.py) : range, if-elif, modulo
+- [Password Generator](day-005/password-generator.py) : random, input output, for, range, random.choice
 - [Hangman Game](day-007)
 - [Caesar Cypher](day-008/caesar-cypher)
 - [Blind Auction](day-009/blind-auction)
