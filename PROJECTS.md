@@ -66,3 +66,4 @@
 - [Name Card](day-056/name-card) : Flask, HTML
 - [Blog Templating](day-057/blog-templating): Flask, Jinja,API, HTML
 - [Tindog Website](day-058): Bootstrap
+- [Blog Website](day-059/upgraded-blog) : Flask, Jinja2, API, request(json)
