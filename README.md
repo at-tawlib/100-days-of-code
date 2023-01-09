@@ -6,14 +6,14 @@
 Most projects ideas come from the Udemy course: [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/)
 
 ## 🔰 Beginner 
-- [Day 1:](day-001) Working with Variables in Python to Manage Data
-- [Day 2:](day-002) Understanding Data Types and How to Manipulate Strings
-- [Day 3:](day-003) Control Flow and Logical Operators
-- [Day 4:](day-004) Randomisation and Python Lists
-- [Day 5:](day-005) Python Loops
-- [Day 7:](day-007) Hangman
-- [Day 8:](day-008) Function Parameters & Caesar Cipher
-- [Day 9:](day-009) Dictionaries, Nesting and the Secret Auction
+- [Day 01:](day-001) Working with Variables in Python to Manage Data
+- [Day 02:](day-002) Understanding Data Types and How to Manipulate Strings
+- [Day 03:](day-003) Control Flow and Logical Operators
+- [Day 04:](day-004) Randomisation and Python Lists
+- [Day 05:](day-005) Python Loops
+- [Day 07:](day-007) Hangman
+- [Day 08:](day-008) Function Parameters & Caesar Cipher
+- [Day 09:](day-009) Dictionaries, Nesting and the Secret Auction
 - [Day 10:](day-010) Functions with Outputs
 - [Day 11:](day-011) The Blackjack Capstone Project
 - [Day 12:](day-012) Scope & Number Guessing Game
@@ -58,3 +58,9 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 56:](day-056) Rendering HTML/Static Files and Using Website Templates
 - [Day 57:](day-057) Templating with Jinja in Flask Applications
 - [Day 58:](day-058) Web Foundation Boostrap
+
+## 🏆 Advanced
+- [Day 59:](day-059) Blog Capstone Project Part 2 - Adding Styling
+- [Day 60:](day-060) Make POST Requests with Flask and HTML Forms
+- [Day 61:](day-061) Building Advanced Forms with Flask-WTForms
+- [Day 62:](day-062) Flask, WTForms, Bootstrap, and CSV - Coffee & Wifi Project
