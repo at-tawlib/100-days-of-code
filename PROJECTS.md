@@ -13,9 +13,9 @@
 - [Treasure Map](day-004/treasure-map.py) : Input, Output, List
 - [Fizz Buzz](day-005/fizz-buzz.py) : range, if-elif, modulo
 - [Password Generator](day-005/password-generator.py) : random, input output, for, range, random.choice
-- [Hangman Game](day-007)
-- [Caesar Cypher](day-008/caesar-cypher)
-- [Blind Auction](day-009/blind-auction)
+- [Hangman Game](day-007) : List, random, ASCII Art, range
+- [Caesar Cypher](day-008/caesar-cypher) : List, Conditions, Loops, Functions, ASCII Art
+- [Blind Auction](day-009/blind-auction) : Dictionaries
 - [Calculator](day-010/calculator)
 - [Days in Month](day-010/days-in-month.py)
 - [Blackjack](day-011) : Capstone Project I
@@ -66,4 +66,6 @@
 - [Name Card](day-056/name-card) : Flask, HTML
 - [Blog Templating](day-057/blog-templating): Flask, Jinja,API, HTML
 - [Tindog Website](day-058): Bootstrap
-- [Blog Website](day-059/upgraded-blog) : Flask, Jinja2, API, request(json)
+
+## 🏆 Advanced
+- [Blog Website](day-059/upgraded-blog) : Flask, Jinja2, Form with Flask, API, request(json)
