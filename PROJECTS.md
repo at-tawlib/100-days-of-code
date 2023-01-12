@@ -69,3 +69,4 @@
 
 ## 🏆 Advanced
 - [Blog Website](day-059/upgraded-blog) : Flask, Jinja2, Form with Flask, API, request(json)
+- [Secrets-Site-Forms](day-061) : Flask WTF-Forms, HTML
