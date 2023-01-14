@@ -16,8 +16,8 @@
 - [Hangman Game](day-007) : List, random, ASCII Art, range
 - [Caesar Cypher](day-008/caesar-cypher) : List, Conditions, Loops, Functions, ASCII Art
 - [Blind Auction](day-009/blind-auction) : Dictionaries
-- [Calculator](day-010/calculator)
-- [Days in Month](day-010/days-in-month.py)
+- [Calculator](day-010/calculator) : Functions, 
+- [Days in Month](day-010/days-in-month.py) : IO, functions, if else
 - [Blackjack](day-011) : Capstone Project I
 - [Number Guessing Game](day-012)
 - [Higher Lower Game](day-014) : 
@@ -69,4 +69,5 @@
 
 ## 🏆 Advanced
 - [Blog Website](day-059/upgraded-blog) : Flask, Jinja2, Form with Flask, API, request(json)
-- [Secrets-Site-Forms](day-061) : Flask WTF-Forms, HTML
+- [Secrets-Site-Forms](day-061) : Flask WTF-Forms, Template Inheritance (Jinja2), Flask-Bootstrap, HTML
+- [Coffee & Wif](day-062) : Flask, Jinja, Flask WT-Forms, Flask Bootstrap, CSV, HTML
