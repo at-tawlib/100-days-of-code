@@ -1,3 +1,1 @@
 # Day 062 - Flask, WTForms, Bootstrap, and CSV - Coffee & Wifi Project
-
-
