@@ -19,7 +19,7 @@
 - [Calculator](day-010/calculator) : Functions, 
 - [Days in Month](day-010/days-in-month.py) : IO, functions, if else
 - [Blackjack](day-011) : Capstone Project I, Lists, Functions, IO, Conditions
-- [Number Guessing Game](day-012)
+- [Number Guessing Game](day-012) : Global variables, Block Scope, Functions
 - [Higher Lower Game](day-014) : 
 
 ## 📚 Intermediate
