@@ -18,7 +18,7 @@
 - [Blind Auction](day-009/blind-auction) : Dictionaries
 - [Calculator](day-010/calculator) : Functions, 
 - [Days in Month](day-010/days-in-month.py) : IO, functions, if else
-- [Blackjack](day-011) : Capstone Project I
+- [Blackjack](day-011) : Capstone Project I, Lists, Functions, IO, Conditions
 - [Number Guessing Game](day-012)
 - [Higher Lower Game](day-014) : 
 
@@ -70,4 +70,5 @@
 ## 🏆 Advanced
 - [Blog Website](day-059/upgraded-blog) : Flask, Jinja2, Form with Flask, API, request(json)
 - [Secrets-Site-Forms](day-061) : Flask WTF-Forms, Template Inheritance (Jinja2), Flask-Bootstrap, HTML
-- [Coffee & Wif](day-062) : Flask, Jinja, Flask WT-Forms, Flask Bootstrap, CSV, HTML
+- [Coffee & Wifi](day-062) : Flask, Jinja, Flask WT-Forms, Flask Bootstrap, CSV, HTML
+- [Favourite Books](day-063) : Flask, Jinja, SQLAlchemy, SQL CRUD, HTML, HTML Forms, 

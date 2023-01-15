@@ -64,3 +64,6 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 60:](day-060) Make POST Requests with Flask and HTML Forms
 - [Day 61:](day-061) Building Advanced Forms with Flask-WTForms
 - [Day 62:](day-062) Flask, WTForms, Bootstrap, and CSV - Coffee & Wifi Project
+- [Day 63:](day-063) Databases and with SQLite and SQLAlchemy
+- [Day 64:](day-064) My Top 10 Movies Website
+- [Day 65:](day-065) How to Create a Website That People Will Love
