@@ -20,10 +20,10 @@
 - [Days in Month](day-010/days-in-month.py) : IO, functions, if else
 - [Blackjack](day-011) : Capstone Project I, Lists, Functions, IO, Conditions
 - [Number Guessing Game](day-012) : Global variables, Block Scope, Functions
-- [Higher Lower Game](day-014) : 
+- [Higher Lower Game](day-014) : random, dictionary, functions, conditions
 
 ## 📚 Intermediate
-- [Coffee Machine](day-015/coffe-machine) :
+- [Coffee Machine](day-015/coffee-machine) : dictionary, functions, conditions, IO
 - [Coffee Machine Update](day-016/oop-coffee-machine-start)
 - [Quiz Game](day-017/quiz-game) :
 - [Hirst Painting](day-018/hirst-painting)
@@ -71,4 +71,5 @@
 - [Blog Website](day-059/upgraded-blog) : Flask, Jinja2, Form with Flask, API, request(json)
 - [Secrets-Site-Forms](day-061) : Flask WTF-Forms, Template Inheritance (Jinja2), Flask-Bootstrap, HTML
 - [Coffee & Wifi](day-062) : Flask, Jinja, Flask WT-Forms, Flask Bootstrap, CSV, HTML
-- [Favourite Books](day-063) : Flask, Jinja, SQLAlchemy, SQL CRUD, HTML, HTML Forms, 
+- [Favourite Books](day-063) : Flask, Jinja, SQLAlchemy, SQL CRUD, HTML, HTML Forms
+- [Top Movies](day-064) : Flask, Jinja, WTF-forms, Flask-Bootstrap, SQLAlchemy, requests, API
