@@ -1,11 +1,5 @@
-# Day 14
-## Project - Higher lower game
-
-### Game Objectives:
-- Include an ASCII art logo.
-
+# Day 14 Higher Lower Game Project
 > - Get-your-own ASCII Text from [Patorjk](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
-
 - The game compares two searched items on google
 - Player is asked to select which item is searched the most
 - If the correct item is selected, remove the wrong answer
