@@ -1,4 +1,6 @@
 # Day 066 - Building Your Own API with RESTful Routing
+- Create a cafe API that users can get data in the form of JSON
+- [Read the documentation here](https://documenter.getpostman.com/view/25414079/2s8ZDX4i1T)
 ## Goals
 - What is REST
 - HTTP PUT vs. PATCH.
