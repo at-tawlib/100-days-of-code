@@ -66,4 +66,11 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 62:](day-062) Flask, WTForms, Bootstrap, and CSV - Coffee & Wifi Project
 - [Day 63:](day-063) Databases and with SQLite and SQLAlchemy
 - [Day 64:](day-064) My Top 10 Movies Website
-- [Day 65:](day-065) How to Create a Website That People Will Love
+- [Day 66:](day-066) Building Your Own API with RESTful Routing
+- [Day 67:](day-067) Blog Capstone Project Part 3 - RESTful Routing
+- [Day 68:](day-068) Authentication with Flask
+- [Day 69:](day-069) Blog Capstone Project Part 4 - Adding Users
+- [Day 70:](day-070) Deploying Your Web Application with Heroku
+- [Day 71:](day-071) Data Exploration with Pandas: College Major vs. Your Salary
+- [Day 72:](day-072) Data Visualisation with Matplotlib: Programming Languages
+- [Day 73:](day-073) Aggregate & Marge Data with Pandas: Analyse the Lego Dataset

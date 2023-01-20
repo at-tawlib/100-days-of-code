@@ -73,3 +73,4 @@
 - [Coffee & Wifi](day-062) : Flask, Jinja, Flask WT-Forms, Flask Bootstrap, CSV, HTML
 - [Favourite Books](day-063) : Flask, Jinja, SQLAlchemy, SQL CRUD, HTML, HTML Forms
 - [Top Movies](day-064) : Flask, Jinja, WTF-forms, Flask-Bootstrap, SQLAlchemy, requests, API
+- [Cafe Rest API](day-066) : Flask, Jinja, HTML, jsonify, dictionary comprehension, Postman, POST, Methods [GET, POST, PATCH, DELETE]
