@@ -39,4 +39,3 @@ screen.onkey(move_clockwise, "d")
 screen.onkey(move_anticlockwise, "a")
 screen.onkey(clear, "c")
 screen.exitonclick()
-
