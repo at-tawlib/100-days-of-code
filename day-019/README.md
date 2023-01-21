@@ -1,6 +1,11 @@
 # Day 019: Instances, State, Higher Order Functions and Event listeners
 
-## etch-a-sketch.py
+## Goals
+- Python Higher Order Functions & Event Listeners
+- Object State and Instances
+- Understanding the Turtle Coordinate System
+
+## [etch-a-sketch.py](exercises/etch-a-sketch.py)
 - Make a turtle and use it to draw
 - Set **w** to move forward
 - Set **s** to move backwards
@@ -9,8 +14,8 @@
 - Set **c** to clear screen
 
 
-## turtle-race.py
-- Promp player to select which turtle will win
+## [Turtle Race](exercises/turtle-race.py)
+- Prompt player to select which turtle will win
 - Create 5 turtles with different colors
 - Move all turtles to starting poing
 - Give turtles random step value
