@@ -47,6 +47,5 @@ tim.pendown()
 
 draw_spirograph(35)
 
-
 screen = t.Screen()
 screen.exitonclick()
