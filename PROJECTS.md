@@ -24,12 +24,12 @@
 
 ## 📚 Intermediate
 - [Coffee Machine](day-015/coffee-machine) : dictionary, functions, conditions, IO
-- [Coffee Machine Update](day-016/oop-coffee-machine-start)
-- [Quiz Game](day-017/quiz-game) :
-- [Hirst Painting](day-018/hirst-painting)
-- [Make spirograph](day-018/make-spirograph)
-- [Etch a Sketch](day-019/exercises/etch-a-sketch.py)
-- [Turtle Race](day-019/exercises/turtle-race.py)
+- [Coffee Machine Update](day-016/oop-coffee-machine) : classes, functions
+- [Quiz Game](day-017/quiz-game) : Class(constructors, init, methods), dictionary
+- [Hirst Painting](day-018/hirst-painting) : Turtle, Tuple, Color
+- [Make spirograph](day-018/make-spirograph) : Turtle, Random
+- [Etch a Sketch](day-019/exercises/etch-a-sketch.py) : Turtle(Coordinate system)
+- [Turtle Race](day-019/exercises/turtle-race.py)  : Turtle(Coordinate system)
 - [Snake Game](day-020-021/snake-game) : 
 - [Pong Game](day-022/pong-game)
 - [Turtle Crossing](day-023/turtle-crossing)
@@ -74,3 +74,4 @@
 - [Favourite Books](day-063) : Flask, Jinja, SQLAlchemy, SQL CRUD, HTML, HTML Forms
 - [Top Movies](day-064) : Flask, Jinja, WTF-forms, Flask-Bootstrap, SQLAlchemy, requests, API
 - [Cafe Rest API](day-066) : Flask, Jinja, HTML, jsonify, dictionary comprehension, Postman, POST, Methods [GET, POST, PATCH, DELETE]
+- [Restful Blog API](day-067) : Flask, Jinja, Bootstrap, SQLAlchemy, WTForms, Flask-ckeditor, date (strftime)
