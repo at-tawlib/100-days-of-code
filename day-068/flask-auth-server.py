@@ -1,5 +1,5 @@
 # 25-02-2023 Authentication with flask
-from flask import Flask, render_template, request, url_for, redirect
+from flask import Flask, render_template, request, url_for, redirect, send_from_directory
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
 
@@ -12,6 +12,7 @@ db = SQLAlchemy(app)
 
 # CREATE TABLE IN DB
 class User(UserMixin, db.Model):
+    """Create users to add to table"""
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(100), unique=True)
     password = db.Column(db.String(100))
@@ -24,8 +25,18 @@ db.create_all()
 def home():
     return render_template("index.html")
 
-@app.route('/register')
+@app.route('/register', methods=["POST", "GET"])
 def register():
+    """renders register.html"""
+    if request.method == "POST":
+        new_user = User(
+            email=request.form.get('email'),
+            password=request.form.get('password'),
+            name=request.form.get('name')
+        )
+        db.session.add(new_user)
+        db.session.commit()
+        return redirect(url_for("secrets"))
     return render_template("register.html")
 
 @app.route('/login')
@@ -42,7 +53,8 @@ def logout():
 
 @app.route('/download')
 def download():
-    return render_template("download.html")
+    """open file if authentication is correct"""
+    return send_from_directory(directory='static', path="files/cheat_sheet.pdf")
 
 if __name__ == "__main__":
     app.run(debug=True)
