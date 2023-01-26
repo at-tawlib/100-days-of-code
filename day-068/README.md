@@ -1,36 +1,35 @@
 # Day 068 - Authentication with Flask
 
-
-- Get user information that will be kept secure
+## Goals
+- What is Authentication
+- Register New Users
+- Downloading Files
+- Login and Registering Users with Authentication
+- Encryption and Hashing
+- Hashing  and Salting Passwords using Werkzeug
+- Authenticating Users with Flask-Login
+- Flask Flash Messages
+- Passing Authentication Status to Templates
 - Register, login and logout users with email and password
 - Allow registered users to download a top-secret [Flask Programming Cheat Sheet](static/files/cheat_sheet.pdf)
 
-## register.html
-- Get user input and use it to create a new User with object email, name and password to save to the db
+### [index.html](templates/index.html)
+- First page which shows login and register buttons 
+- Both login and register buttons are hidden
+- Uses authentication to hide or show the buttons (i.e if user is authenticated, buttons are hidden)
+
+### [register.html](templates/register.html)
+- Registers new user 
+- Get username, email and password and add it to the database
+- If email already exists, show message to login rather and redirects to login page
 - Once user is registered, goto secrets.html
 
-## secrets.html
-- displays "Hello <username>" after successfully creating a user
+### [login.html](templates/login.html)
+- Shows a form for user to login
+- compares email and password to data in the database
+- if email or password is not correct, show error message
+- if email and password is verified, redirect to [secrets page](templates/secrets.html)
 
-'566 What is Authentication_.mp4'  
-
-'567 Starting-Files-flask-auth-start'
-'567 Starting-Files-flask-auth-start.zip'
-'568 Register New Users.html'
-'569 Downloading Files.html'
-'570 Cryptii-Online-Encryption.txt'
-'570 How-the-Enigma-Machine-Works.txt'
-'570 The-Flaw-in-the-Enigma-Machine.txt'
-'571 -have-i-been-pwned-.txt'
-'571 Most-Common-Passwords.txt'
-'571 Password-Complexity-Checker.txt'
-'571 Plain-Text-Offenders.txt'
-'Day 68 Goals - Login and Registering Users with Authentication.html'
-'571 How to Hack Passwords 101.mp4'
-'570 Encryption and Hashing.mp4'   
-'572 Salting Passwords.mp4'
-'573 Hashing  and Salting Passwords using Werkzeug.html'
-'574 Authenticating Users with Flask-Login.html'
-'575 Flask Flash Messages.html'
-'576 Course-Fixes-Report-an-Issue.txt'
-'576 Passing Authentication Status to Templates.html'
+### [secrets.html](templates/secrets.html)
+- Displays "Hello <username>" after successfully creating a user or logging in
+- Shows a link to download a pdf file
