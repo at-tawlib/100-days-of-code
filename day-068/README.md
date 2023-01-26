@@ -29,7 +29,7 @@
 '571 How to Hack Passwords 101.mp4'
 '570 Encryption and Hashing.mp4'   
 '572 Salting Passwords.mp4'
-'573 Hashing Passwords using Werkzeug.html'
+'573 Hashing  and Salting Passwords using Werkzeug.html'
 '574 Authenticating Users with Flask-Login.html'
 '575 Flask Flash Messages.html'
 '576 Course-Fixes-Report-an-Issue.txt'
