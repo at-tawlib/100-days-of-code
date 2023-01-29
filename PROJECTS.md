@@ -30,7 +30,7 @@
 - [Make spirograph](day-018/make-spirograph) : Turtle, Random
 - [Etch a Sketch](day-019/exercises/etch-a-sketch.py) : Turtle(Coordinate system)
 - [Turtle Race](day-019/exercises/turtle-race.py)  : Turtle(Coordinate system)
-- [Snake Game](day-020-021/snake-game) : 
+- [Snake Game](day-020-021/snake-game) : animation & coordination, List Slicing, Inheritance, File IO, Paths
 - [Pong Game](day-022/pong-game)
 - [Turtle Crossing](day-023/turtle-crossing)
 - [Mail Merge Project](day-024/mail-merge-project)
@@ -75,3 +75,4 @@
 - [Top Movies](day-064) : Flask, Jinja, WTF-forms, Flask-Bootstrap, SQLAlchemy, requests, API
 - [Cafe Rest API](day-066) : Flask, Jinja, HTML, jsonify, dictionary comprehension, Postman, POST, Methods [GET, POST, PATCH, DELETE]
 - [Restful Blog API](day-067) : Flask, Jinja, Bootstrap, SQLAlchemy, WTForms, Flask-ckeditor, date (strftime)
+- [Flask Authentication](day-068) : Flask (flask_login), Jinja, SQLAlchemy, Werkzeug(Hashing, Salting), Flask-Login, Flask-Flashing
