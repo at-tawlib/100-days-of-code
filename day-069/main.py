@@ -43,28 +43,33 @@ class User(UserMixin, db.Model):
     name = db.Column(db.String(100))
     # acts like a list of BlogPost objects attached to each user
     posts = relationship("BlogPost", back_populates="author")
+    comments = relationship("Comment", back_populates="comment_author")
 
 class BlogPost(db.Model):
     """Creates BlogPost table"""
     __tablename__ = "blog_posts"
     id = db.Column(db.Integer, primary_key=True)
-
-    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
-    # reference to the User object,posts = posts property in the User class
-    author = relationship("User", back_populates="posts")
-
     title = db.Column(db.String(250), unique=True, nullable=False)
     subtitle = db.Column(db.String(250), nullable=False)
     date = db.Column(db.String(250), nullable=False)
     body = db.Column(db.Text, nullable=False)
     img_url = db.Column(db.String(250), nullable=False)
 
+    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+    # reference to the User object,posts = posts property in the User class
+    author = relationship("User", back_populates="posts")
+    comments = relationship("Comment", back_populates="parent_post")
+
 class Comment(db.Model):
     """Creates Comment table"""
     __tablename__ = "comments"
     id = db.Column(db.Integer, primary_key=True)
-    text  = db.Column(db.Text,nullable=False)
+    text = db.Column(db.Text, nullable=False)
 
+    post_id = db.Column(db.Integer, db.ForeignKey("blog_posts.id"))
+    parent_post = relationship("BlogPost", back_populates="comments")
+    author_id = db.Column(db.Integer, db.Foreign_key('users.id'))
+    comment_author = relationship("User", back_populates="comments")
 
 # Create all the tables in the database
 db.create_all()
