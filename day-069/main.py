@@ -1,6 +1,6 @@
 # 29-01-2023
 import requests
-from flask import Flask, render_template, redirect, url_for, flash, request
+from flask import Flask, render_template, redirect, url_for, flash, abort
 from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
 from datetime import date
@@ -10,6 +10,7 @@ from sqlalchemy.orm import relationship
 from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
 from forms import CreatePostForm, RegisterForm, LoginForm
 from flask_gravatar import Gravatar
+from functools import wraps
 
 app = Flask(__name__)
 app.app_context().push()  # to prevent app out of context error
@@ -30,6 +31,7 @@ login_manager.init_app(app)
 def load_user(user_id):
     """reloads the user by returning the user id"""
     return User.query.get(int(user_id))
+
 
 ##CONFIGURE TABLES
 class BlogPost(db.Model):
@@ -53,6 +55,16 @@ class User(UserMixin, db.Model):
 # Create all the tables in the database
 db.create_all()
 
+def admin_only(f):
+    """admin only decorator and makes page only accessible by the admin"""
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        # if id is not 1 then return abort with 403 error
+        if current_user.id != 1:
+            return abort(403)
+        #otherwise continue with the route function
+        return f(*args, **kwargs)
+    return decorated_function
 
 @app.route('/')
 def get_all_posts():
@@ -138,8 +150,8 @@ def about():
 def contact():
     return render_template("contact.html", current_user=current_user)
 
-
-@app.route("/new-post")
+@app.route("/new-post", methods=["GET", "POST"])
+@admin_only
 def add_new_post():
     form = CreatePostForm()
     if form.validate_on_submit():
@@ -158,7 +170,7 @@ def add_new_post():
 
 
 @app.route("/edit-post/<int:post_id>")
-@login_required
+@admin_only
 def edit_post(post_id):
     post = BlogPost.query.get(post_id)
     edit_form = CreatePostForm(
@@ -181,6 +193,7 @@ def edit_post(post_id):
 
 
 @app.route("/delete/<int:post_id>")
+@admin_only
 def delete_post(post_id):
     post_to_delete = BlogPost.query.get(post_id)
     db.session.delete(post_to_delete)
