@@ -34,16 +34,6 @@ def load_user(user_id):
 
 
 ##CONFIGURE TABLES
-class BlogPost(db.Model):
-    __tablename__ = "blog_posts"
-    id = db.Column(db.Integer, primary_key=True)
-    author = db.Column(db.String(250), nullable=False)
-    title = db.Column(db.String(250), unique=True, nullable=False)
-    subtitle = db.Column(db.String(250), nullable=False)
-    date = db.Column(db.String(250), nullable=False)
-    body = db.Column(db.Text, nullable=False)
-    img_url = db.Column(db.String(250), nullable=False)
-
 class User(UserMixin, db.Model):
     """Creates the User table"""
     __tablename__="users"
@@ -51,6 +41,22 @@ class User(UserMixin, db.Model):
     email = db.Column(db.String(100), unique=True)
     password = db.Column(db.String(100))
     name = db.Column(db.String(100))
+    # acts like a list of BlogPost objects attached to each user
+    posts = relationship("BlogPost", back_populates="author")
+
+class BlogPost(db.Model):
+    __tablename__ = "blog_posts"
+    id = db.Column(db.Integer, primary_key=True)
+
+    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+    # reference to the User object,posts = posts property in the User class
+    author = relationship("User", back_populates="posts")
+
+    title = db.Column(db.String(250), unique=True, nullable=False)
+    subtitle = db.Column(db.String(250), nullable=False)
+    date = db.Column(db.String(250), nullable=False)
+    body = db.Column(db.Text, nullable=False)
+    img_url = db.Column(db.String(250), nullable=False)
 
 # Create all the tables in the database
 db.create_all()
@@ -60,6 +66,7 @@ def admin_only(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
         # if id is not 1 then return abort with 403 error
+        # todo: add current_user.authenticated and annonnimous
         if current_user.id != 1:
             return abort(403)
         #otherwise continue with the route function
