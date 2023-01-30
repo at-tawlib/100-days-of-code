@@ -68,7 +68,7 @@ class Comment(db.Model):
 
     post_id = db.Column(db.Integer, db.ForeignKey("blog_posts.id"))
     parent_post = relationship("BlogPost", back_populates="comments")
-    author_id = db.Column(db.Integer, db.Foreign_key('users.id'))
+    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     comment_author = relationship("User", back_populates="comments")
 
 # Create all the tables in the database
@@ -155,11 +155,23 @@ def logout():
     return redirect(url_for('get_all_posts'))
 
 
-@app.route("/post/<int:post_id>")
+@app.route("/post/<int:post_id>", methods=["GET", "POST"])
 def show_post(post_id):
-
     form = CommentForm()
     requested_post = BlogPost.query.get(post_id)
+    if form.validate_on_submit():
+        if not current_user.is_authenticated:
+            # if user not authenticated redirect to login
+            flash("You need to login or register to comment")
+            return redirect(url_for("login"))
+        new_comment = Comment(
+            text=form.comment_text.data,
+            comment_author=current_user,
+            parent_post=requested_post
+        )
+        db.session.add(new_comment)
+        db.session.commit()
+        return redirect(url_for("show_post", post_id=post_id))
     return render_template("post.html", form=form, post=requested_post, current_user=current_user)
 
 
