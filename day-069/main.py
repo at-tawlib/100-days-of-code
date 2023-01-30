@@ -1,5 +1,4 @@
-# 29-01-2023
-import requests
+# 29-01-2023 Blog Project Final
 from flask import Flask, render_template, redirect, url_for, flash, abort
 from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
@@ -17,6 +16,9 @@ app.app_context().push()  # to prevent app out of context error
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
 Bootstrap(app)
+
+# configure Gravatar
+gravatar = Gravatar(app, size=100, rating='g', default='retro', force_default=False, force_lower=False, use_ssl=False, base_url=None)
 
 ##CONNECT TO DB
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
@@ -49,13 +51,12 @@ class BlogPost(db.Model):
     """Creates BlogPost table"""
     __tablename__ = "blog_posts"
     id = db.Column(db.Integer, primary_key=True)
+    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     title = db.Column(db.String(250), unique=True, nullable=False)
     subtitle = db.Column(db.String(250), nullable=False)
     date = db.Column(db.String(250), nullable=False)
     body = db.Column(db.Text, nullable=False)
     img_url = db.Column(db.String(250), nullable=False)
-
-    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     # reference to the User object,posts = posts property in the User class
     author = relationship("User", back_populates="posts")
     comments = relationship("Comment", back_populates="parent_post")
@@ -65,7 +66,6 @@ class Comment(db.Model):
     __tablename__ = "comments"
     id = db.Column(db.Integer, primary_key=True)
     text = db.Column(db.Text, nullable=False)
-
     post_id = db.Column(db.Integer, db.ForeignKey("blog_posts.id"))
     parent_post = relationship("BlogPost", back_populates="comments")
     author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
@@ -78,9 +78,8 @@ def admin_only(f):
     """admin only decorator and makes page only accessible by the admin"""
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        # if id is not 1 then return abort with 403 error
-        # todo: add current_user.authenticated and annonnimous
-        if current_user.id != 1:
+        # if id is not 1 or user is anonymous or not authenticated then return abort with 403 error
+        if not current_user or  current_user.id != 1 or current_user.is_anonymous or not current_user.is_authenticated:
             return abort(403)
         #otherwise continue with the route function
         return f(*args, **kwargs)
@@ -118,7 +117,6 @@ def register():
         )
         db.session.add(new_user)
         db.session.commit()
-
         # authenticate user with flask login
         login_user(new_user)
         return redirect(url_for('get_all_posts'))
@@ -171,7 +169,6 @@ def show_post(post_id):
         )
         db.session.add(new_comment)
         db.session.commit()
-        return redirect(url_for("show_post", post_id=post_id))
     return render_template("post.html", form=form, post=requested_post, current_user=current_user)
 
 

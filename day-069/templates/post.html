@@ -1,6 +1,9 @@
 {% include "header.html" %}
 {% import "bootstrap/wtf.html" as wtf %}
 
+{% block content %}
+{% include "header.html" %}
+
 <!-- Page Header -->
 <header class="masthead" style="background-image: url('{{post.img_url}}')">
     <div class="overlay"></div>
@@ -27,7 +30,7 @@
                 {{ post.body|safe }}
                 <hr>
 
-<!--                only admin (id = 1) can edit post-->
+                <!-- only admin (id = 1) can edit post-->
                 {% if current_user.id == 1: %}
                 <div class="clearfix">
                     <a class="btn btn-primary float-right" href="{{url_for('edit_post', post_id=post.id)}}">Edit
@@ -35,20 +38,19 @@
                 </div>
                 {% endif %}
 
-
-                <!--           Comments Area -->
-<!--                load the CKEditor-->
+                <!-- Comments Area -->
+                <!-- load the CKEditor-->
                 {{ ckeditor.load() }}
-<!--                Configure it with the name of the form field from CommentForm-->
+                <!-- Configure it with the name of the form field from CommentForm-->
                 {{ ckeditor.config(name='comment_text') }}
-<!--                create the wtf quickform from CommentForm-->
+                <!-- create the wtf quickform from CommentForm-->
                 {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
                 <div class="col-lg-8 col-md-10 mx-auto comment">
                     {% for comment in post.comments: %}
                     <ul class="commentList">
                         <li>
                             <div class="commenterImage">
-                                <img src="https://pbs.twimg.com/profile_images/744849215675838464/IH0FNIXk.jpg"/>
+                                <img src="{{ comment.comment_author.email | gravatar }}"/>
                             </div>
                             <div class="commentText">
                                 <p>{{ comment.text|safe }}</p>
@@ -58,8 +60,6 @@
                     </ul>
                     {% endfor %}
                 </div>
-
-
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Angela's Blog</h1>
+            <h1>Azindo's Blog</h1>
             <span class="subheading">A collection of random musings.</span>
           </div>
         </div>
@@ -19,6 +19,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+<!--        get and load posts-->
         {% for post in all_posts %}
         <div class="post-preview">
           <a href="{{ url_for('show_post', post_id=post.id) }}">
@@ -33,7 +34,7 @@
             <a href="#">{{post.author.name}}</a>
             on {{post.date}}
 
-<!--            if admin (id = 1) see the delete post-->
+<!--            if admin (id = 1) see the delete post button -->
             {% if current_user.id == 1: %}
             <a href="{{url_for('delete_post', post_id=post.id) }}">✘</a>
             {% endif %}
