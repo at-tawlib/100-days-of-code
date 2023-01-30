@@ -8,7 +8,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import relationship
 from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
-from forms import CreatePostForm, RegisterForm, LoginForm
+from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
 
@@ -45,6 +45,7 @@ class User(UserMixin, db.Model):
     posts = relationship("BlogPost", back_populates="author")
 
 class BlogPost(db.Model):
+    """Creates BlogPost table"""
     __tablename__ = "blog_posts"
     id = db.Column(db.Integer, primary_key=True)
 
@@ -57,6 +58,13 @@ class BlogPost(db.Model):
     date = db.Column(db.String(250), nullable=False)
     body = db.Column(db.Text, nullable=False)
     img_url = db.Column(db.String(250), nullable=False)
+
+class Comment(db.Model):
+    """Creates Comment table"""
+    __tablename__ = "comments"
+    id = db.Column(db.Integer, primary_key=True)
+    text  = db.Column(db.Text,nullable=False)
+
 
 # Create all the tables in the database
 db.create_all()
@@ -144,8 +152,10 @@ def logout():
 
 @app.route("/post/<int:post_id>")
 def show_post(post_id):
+
+    form = CommentForm()
     requested_post = BlogPost.query.get(post_id)
-    return render_template("post.html", post=requested_post, current_user=current_user)
+    return render_template("post.html", form=form, post=requested_post, current_user=current_user)
 
 
 @app.route("/about")
