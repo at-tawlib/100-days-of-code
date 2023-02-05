@@ -31,9 +31,9 @@
 - [Etch a Sketch](day-019/exercises/etch-a-sketch.py) : Turtle(Coordinate system)
 - [Turtle Race](day-019/exercises/turtle-race.py)  : Turtle(Coordinate system)
 - [Snake Game](day-020-021/snake-game) : animation & coordination, List Slicing, Inheritance, File IO, Paths
-- [Pong Game](day-022/pong-game)
-- [Turtle Crossing](day-023/turtle-crossing)
-- [Mail Merge Project](day-024/mail-merge-project)
+- [Pong Game](day-022/pong-game) : classes, Objects, Turtle
+- [Turtle Crossing](day-023/turtle-crossing) : Turtle, Classes, Objects
+- [Mail Merge Project](day-024/mail-merge-project) : File IO, Directories, Paths
 - [Read Weather Data](day-025/read-weather-data)
 - [Squirrel Data Census](day-025/squirrel-data-census) : extensive use of pandas
 - [Us States Game](day-025/us-states-game)
@@ -75,4 +75,5 @@
 - [Top Movies](day-064) : Flask, Jinja, WTF-forms, Flask-Bootstrap, SQLAlchemy, requests, API
 - [Cafe Rest API](day-066) : Flask, Jinja, HTML, jsonify, dictionary comprehension, Postman, POST, Methods [GET, POST, PATCH, DELETE]
 - [Restful Blog API](day-067) : Flask, Jinja, Bootstrap, SQLAlchemy, WTForms, Flask-ckeditor, date (strftime)
-- [Flask Authentication](day-068) : Flask (flask_login), Jinja, SQLAlchemy, Werkzeug(Hashing, Salting), Flask-Login, Flask-Flashing
+- [Flask Authentication](day-068) : Flask,  Jinja, SQLAlchemy, Werkzeug(Hashing, Salting), Flask-Login, Flask-Flashing
+- [Blog Capstone Final](day-069) : Flask, Bootstrap etc., Werkzeug(Hashing, Salting), Authentication (Flask-login), Flask-Flashing, Decorators, SQL, SQLAlchemy, CKEditor, Gravatar Images
