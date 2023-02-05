@@ -1,13 +1,18 @@
-# Day 023 Second Capstone Project
-## Turtle Crossring game
+# Day 023 The Turtle Crossing Capstone Project
+## Goals
+- Create the Player Behaviour
+- Create the Car Behaviour
+- Detect when the Turtle collides with a Car _squish_
+- Detect when the Player has reached the other side
+- Add the Scoreboard and Game Over sequence
 
-### Overview
+## Overview
 1. A turtle moves forwards when you press the "Up" key. It can only move forwards, not back, left or right.
 2. Cars are randomly generated along the y-axis and will move from the right edge of the screen to the left edge.
 3. When the turtle hits the top edge of the screen, it moves back to the original position and the player levels up. On the next level, the car speed increases.
 4. When the turtle collides with a car, it's game over and everything stops.
 
-### Steps
+## Steps
 - Create a turtle player that starts at the bottom of the screen and listen for the "Up" keypress to move the turtle north.
 - Create cars that are 20px high by 40px wide that are randomly generated along the y-axis and move to the left edge of the screen. 
 - No cars should be generated in the top and bottom 50px of the screen (think of it as a safe zone for our little turtle). 
